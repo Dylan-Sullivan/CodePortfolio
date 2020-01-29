@@ -7,6 +7,7 @@ int main(){
 
   while(i <= 10){
     std::cout << i + " squared = " + i^2 << std::endl;
+    i += 1;
   }
 
   return 0;
